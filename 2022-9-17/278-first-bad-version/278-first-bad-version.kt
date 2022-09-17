@@ -12,6 +12,6 @@ class Solution: VersionControl() {
                 start=mid+1
             }else end=mid
         }
-        return end
+        return start
     }
 }
