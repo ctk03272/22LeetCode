@@ -7,6 +7,7 @@ class Solution: VersionControl() {
         var end = n
         while (start < end) {
             var mid =start + (end-start) / 2
+            println("${start} and ${end} ")
             if(!isBadVersion(mid)) {
                 start=mid+1
             }else end=mid
