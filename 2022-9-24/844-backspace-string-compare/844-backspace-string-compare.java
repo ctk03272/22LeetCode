@@ -17,7 +17,10 @@ class Solution {
                 stack.push(now);
             }
         }
-
-        return stack.stream().map(String::valueOf).collect(Collectors.joining());
+        String answer = "";
+        while (!stack.isEmpty()) {
+            answer += stack.pop();
+        }
+        return answer;
     }
 }
