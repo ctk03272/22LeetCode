@@ -1,11 +1,9 @@
 class Solution {
     public int arrayPairSum(int[] nums) {
-
-        PriorityQueue<Integer> priorityQueue = Arrays.stream(nums).boxed().collect(Collectors.toCollection(PriorityQueue::new));
-        int answer=0;
-        while (!priorityQueue.isEmpty()){
-            answer+=priorityQueue.poll();
-            priorityQueue.poll();
+        Arrays.sort(nums);
+        int answer = 0;
+        for (int i = 0; i < nums.length; i = i + 2) {
+            answer += nums[i];
         }
         return answer;
     }
