@@ -25,6 +25,9 @@ public class Solution {
     }
 
     void findDepth(TreeNode root, int depth) {
+        if (depth>ans){
+            return;
+        }
         if (root.left == null && root.right == null) {
             ans = Math.min(ans, depth);
         }
