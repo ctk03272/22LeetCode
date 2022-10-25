@@ -1,1 +1,2 @@
-​
+### 회고
+- 문제를 푸는 순서가 잘못된거 같다..... 만약 442번 문제를 풀기 전에 이문제를 풀어서  You may assume the returned list does not count as extra space. 이 조건을 보았다면 442번을 힌트 없이 풀수도 있었을텐데... 마찬가지로 기존의 주어진 배열을 조작해가면서 풀면 extraspace가 없이 풀 수 있다.
