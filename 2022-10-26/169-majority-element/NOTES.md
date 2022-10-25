@@ -1,1 +1,2 @@
-​
+### 회고
+- 이 문제의 경우 hashTable을 사용하여도 문제를 풀 수 있다. 그러나 follow-up에서 o(1)의 공간복잡도로 풀어야 하는 제약조건이 있었다. 이 때 majority elements 가 n/2보다 더 많이 나온다는점을 이용해서 count를 세가면서 count 가 0이 될때 majority elements를 계속 업데이트 해주면 majority elements가 결국 남게 된다.
