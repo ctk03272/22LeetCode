@@ -9,7 +9,8 @@ class Solution {
                 if (nums[i]<=mid){
                     count++;
                 }
-            }            if (count>mid){
+            }            
+            if (count>mid){
                 end=mid;
             }else {
                 start=mid+1;
