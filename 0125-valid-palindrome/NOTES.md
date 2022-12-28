@@ -1,0 +1,2 @@
+### 회고
+- 이문제에서 유효한 팰린드롬인지를 구하는 방법은 그리 어렵지 않다. 단순히 투포인터를 이용하여 값들을 변경해주면 된다. 다만 문제는 이 문제의 경우 removing all non-alphanumeric characters라는 조건이 있는 것이다. 해당 조건을 처음에는 char의 값들을 이용하여 풀려고 했지만 그보다는 Character 객체의 isLetterOrDigit이라는 함수를 사용하는것이 더 바람직할것 같다.
