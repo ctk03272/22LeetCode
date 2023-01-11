@@ -9,7 +9,7 @@ class Solution {
         if(s.length()%interval!=0){
             intervalCount++;
         }
-        // 
+        //왜 저장안됨..ㅠㅠ
         for (int i = 0; i <numRows ; i++) {
             for (int j = 0; j <intervalCount ; j++) {
                 if(interval*j+i<s.length()){
